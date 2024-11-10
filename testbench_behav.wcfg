@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="custom_types" />
+            <top_module name="fixed_pkg" />
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="104.967 ns"></ZoomStartTime>
+      <ZoomEndTime time="259.068 ns"></ZoomEndTime>
+      <Cursor1Time time="226.330 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="258"></NameColumnWidth>
+      <ValueColumnWidth column_width="98"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="57" />
+   <wvobject fp_name="/testbench/bram_read_tb/start_reading[0]" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">start_reading[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/en[0]" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">en[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bram_read_tb/reading_internal" type="logic">
+      <obj_property name="ElementShortName">reading_internal</obj_property>
+      <obj_property name="ObjectShortName">reading_internal</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bram_read_tb/temp_soma" type="array">
+      <obj_property name="ElementShortName">temp_soma[7:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_soma[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bram_read_tb/BRAM_en" type="logic">
+      <obj_property name="ElementShortName">BRAM_en</obj_property>
+      <obj_property name="ObjectShortName">BRAM_en</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bram_read_tb/address" type="array">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bram_read_tb/BRAM_addr" type="array">
+      <obj_property name="ElementShortName">BRAM_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_addrb" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_addrb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_addrb[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_enb" type="logic">
+      <obj_property name="ElementShortName">BRAM_PORTB_enb</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_enb</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_web" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_web[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_web[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_rstb" type="logic">
+      <obj_property name="ElementShortName">BRAM_PORTB_rstb</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_rstb</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dout0_fake" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dout0_fake[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dout0_fake[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dout1_fake" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dout1_fake[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dout1_fake[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dout2_fake" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dout2_fake[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dout2_fake[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dout3_fake" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dout3_fake[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dout3_fake[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dout4_fake" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dout4_fake[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dout4_fake[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dout5_fake" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dout5_fake[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dout5_fake[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dout6_fake" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dout6_fake[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dout6_fake[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dout7_fake" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dout7_fake[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dout7_fake[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/pixel0" type="array">
+      <obj_property name="ElementShortName">pixel0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel0[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/pixel1" type="array">
+      <obj_property name="ElementShortName">pixel1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel1[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/pixel2" type="array">
+      <obj_property name="ElementShortName">pixel2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel2[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/pixel3" type="array">
+      <obj_property name="ElementShortName">pixel3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel3[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/pixel4" type="array">
+      <obj_property name="ElementShortName">pixel4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel4[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/pixel5" type="array">
+      <obj_property name="ElementShortName">pixel5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel5[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/pixel6" type="array">
+      <obj_property name="ElementShortName">pixel6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel6[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/pixel7" type="array">
+      <obj_property name="ElementShortName">pixel7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel7[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer1" type="array">
+      <obj_property name="ElementShortName">layer1[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer1[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer2" type="array">
+      <obj_property name="ElementShortName">layer2[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer2[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer3" type="array">
+      <obj_property name="ElementShortName">layer3[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer3[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer4" type="array">
+      <obj_property name="ElementShortName">layer4[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer4[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer5" type="array">
+      <obj_property name="ElementShortName">layer5[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer5[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer0_reg" type="array">
+      <obj_property name="ElementShortName">layer0_reg[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer0_reg[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer1_reg" type="array">
+      <obj_property name="ElementShortName">layer1_reg[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer1_reg[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer2_reg" type="array">
+      <obj_property name="ElementShortName">layer2_reg[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer2_reg[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer3_reg" type="array">
+      <obj_property name="ElementShortName">layer3_reg[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer3_reg[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer4_reg" type="array">
+      <obj_property name="ElementShortName">layer4_reg[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer4_reg[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/layer5_reg" type="array">
+      <obj_property name="ElementShortName">layer5_reg[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">layer5_reg[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/eight_pixel_array_transformed" type="array">
+      <obj_property name="ElementShortName">eight_pixel_array_transformed[0:7][11:-20]</obj_property>
+      <obj_property name="ObjectShortName">eight_pixel_array_transformed[0:7][11:-20]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dinb0" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dinb0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dinb0[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dinb1" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dinb1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dinb1[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dinb2" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dinb2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dinb2[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dinb3" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dinb3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dinb3[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dinb4" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dinb4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dinb4[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dinb5" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dinb5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dinb5[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dinb6" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dinb6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dinb6[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_dinb7" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_dinb7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_dinb7[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">20</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_addrb" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_addrb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_addrb[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_enb" type="logic">
+      <obj_property name="ElementShortName">BRAM_PORTB_enb</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_enb</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/BRAM_PORTB_web" type="array">
+      <obj_property name="ElementShortName">BRAM_PORTB_web[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_PORTB_web[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/sel_tb" type="logic">
+      <obj_property name="ElementShortName">sel_tb</obj_property>
+      <obj_property name="ObjectShortName">sel_tb</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/finished_tb" type="logic">
+      <obj_property name="ElementShortName">finished_tb</obj_property>
+      <obj_property name="ObjectShortName">finished_tb</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/temp_soma" type="array">
+      <obj_property name="ElementShortName">temp_soma[7:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_soma[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/en_signal" type="logic">
+      <obj_property name="ElementShortName">en_signal</obj_property>
+      <obj_property name="ObjectShortName">en_signal</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dct_tb/resetar[1]" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">[1]</obj_property>
+      <obj_property name="label">resetar[1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/start_reading_tb" type="array">
+      <obj_property name="ElementShortName">start_reading_tb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">start_reading_tb[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+</wave_config>
