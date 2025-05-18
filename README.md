@@ -26,4 +26,4 @@ This project implements a **JPEG compression scheme** on a **System-on-Chip (SoC
 ## Documentation
 
 - 📄 **Full technical report**: `Report.pdf`  
-- 🧩 **System architecture**: available in the **block diagram** included in the documentation
+- 🧩 **System architecture**: available in the `Block Diagram.pdf`  included in the documentation
