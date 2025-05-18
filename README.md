@@ -22,3 +22,8 @@ This project implements a **JPEG compression scheme** on a **System-on-Chip (SoC
 
 - 🔧 **Hardware**: Xilinx Cora Z7-10 Dual Core (Zynq-7000 SoC)  
 - 💻 **Software**: Xilinx Vivado, Vitis (or SDK), C for ARM side  
+
+## Documentation
+
+- 📄 **Full technical report**: `report.pdf`  
+- 🧩 **System architecture**: available in the **block diagram** included in the documentation
